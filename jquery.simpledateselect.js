@@ -32,8 +32,10 @@ var DateSelect = (function () {
                 days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
                 if (parseInt($(month).val(), 10)) {
-                    if ($(month).val() === "2" && ($(year).val() % 4) === 0) {
-                        days[1] += 1;
+                    if (parseInt($(year).val(), 10)) {
+                        if ($(month).val() === "2" && ($(year).val() % 4) === 0) {
+                            days[1] += 1;
+                        }
                     }
 
                     options = $(day).children("option[value!='']");
