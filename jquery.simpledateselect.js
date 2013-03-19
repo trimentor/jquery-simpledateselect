@@ -1,8 +1,9 @@
 /*!
- * jquery.simpledateselect.js
+ * jQuery simpledateselect Plugin v1.0.0
  *
- * Copyright 2012, Kjel Delaey (https://github.com/trimentor/jquery-simpledateselect)
- * https://github.com/trimentor/jquery-simpledateselect/blob/master/LICENSE
+ * Copyright 2012, 2013 Kjel Delaey
+ * Released under the MIT license
+ * https://raw.github.com/trimentor/jquery-simpledateselect/master/LICENSE
  */
 var DateSelect = (function () {
     var updateOptions;
