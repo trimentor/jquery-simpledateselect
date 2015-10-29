@@ -1,0 +1,25 @@
+{
+  "name": "jquery-simpledateselect",
+  "homepage": "https://github.com/trimentor/jquery-simpledateselect",
+  "authors": [
+    { "name": "Kjel Delaey" }
+  ],
+  "description": "Automatically updates your date select boxes which were created using Rails helpers",
+  "main": "jquery.simpledateselect.js",
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "moduleType": [],
+  "keywords": [
+    "date",
+    "select"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "jquery.simpledateselect.min.js",
+    "simpledateselect.jquery.json",
+    "sample.html",
+    "jquery.min.js",
+    "normalize.min.css"
+  ]
+}
